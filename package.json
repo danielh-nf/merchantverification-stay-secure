@@ -1,0 +1,13 @@
+{
+  "name": "instantprotect",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "pretty-links-fullprotection": "node ./init.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
