@@ -1,7 +1,18 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "apple-merchant-verification-beta",
   "compatibility_date": "2025-10-22",
   "assets": {
     "directory": "./assets"
   }
+  "routes": [
+    {
+      "pattern": "beta-secure.stay-secure.app/.well-known/apple-developer-merchantid-domain-association.txt",
+      "zone_name": "stay-secure.app"
+    },
+    {
+      "pattern": "payment-beta.stay-secure.app/.well-known/apple-developer-merchantid-domain-association.txt",
+      "zone_id": "stay-secure.app"
+    }
+  ]
 }
