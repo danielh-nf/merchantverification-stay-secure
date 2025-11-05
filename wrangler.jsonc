@@ -3,7 +3,7 @@
   "compatibility_date": "2025-10-22",
   "assets": {
     "directory": "./assets"
-  }
+  },
   "routes": [
     {
       "pattern": "secure.stay-secure.app/.well-known/apple-developer-merchantid-domain-association.txt",
