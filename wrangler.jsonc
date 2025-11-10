@@ -12,7 +12,7 @@
     },
     {
       "pattern": "payment-beta.stay-secure.app/.well-known/apple-developer-merchantid-domain-association.txt",
-      "zone_id": "stay-secure.app"
+      "zone_name": "stay-secure.app"
     }
   ]
 }
